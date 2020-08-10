@@ -86,4 +86,4 @@ Includes classification of clauses contained in Validation File, with the follow
 Several additional references have beeen provided that teams may optionally use for the challenge. For more information, view the [Reference](reference/readme.md) section of this repository.
 
 ## Frequently Asked Questions
-To see the answers to questions that we have been asked by participants, view the [FAQ page](FAQ.md).
+Thanks to the more than 20 teams who have registered and have been sharing questions. To see the answers to questions that we have been asked, view the [FAQ page](FAQ.md).
