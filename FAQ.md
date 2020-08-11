@@ -61,11 +61,11 @@ It contradicts 41 U.S.C.3307(e)(5)(B) and FAR 12.404(b).  FAR 12.404(b) states t
  
 (1) Any express warranty the Government intends to rely upon must meet the needs of the Government. The contracting officer should analyze any commercial warranty to determine if-
  
- (i) The warranty is adequate to protect the needs of the Government, e.g., items covered by the warranty and length of warranty;
+- (i) The warranty is adequate to protect the needs of the Government, e.g., items covered by the warranty and length of warranty;
  
- (ii) The terms allow the Government effective postaward administration of the warranty to include the identification of warranted items, procedures for the return of warranted items to the contractor for repair or replacement, and collection of product performance information; and
+- (ii) The terms allow the Government effective postaward administration of the warranty to include the identification of warranted items, procedures for the return of warranted items to the contractor for repair or replacement, and collection of product performance information; and
  
- (iii) The warranty is cost-effective.
+- (iii) The warranty is cost-effective.
  
 (2) In some markets, it may be customary commercial practice for contractors to exclude or limit the implied warranties contained in 52.212-4 in the provisions of an express warranty. In such cases, the contracting officer shall ensure that the express warranty provides for the repair or replacement of defective items discovered within a reasonable period of time after acceptance.
  
