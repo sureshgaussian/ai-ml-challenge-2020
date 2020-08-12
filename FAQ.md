@@ -48,3 +48,28 @@ We welcome many types of solvers to participate, including individuals, teams, s
 
 ## How do we calculate the self-reported metrics of our solution?
 You should split the training data provided into a training dataset and a test dataset. You should use the test dataset to calculate your self-reported metrics using the appropriate methods of calculating those metrics. You should decide the portion of the data to set aside as test data based on your own expertise.
+
+## Why are the following clauses unacceptable?
+
+### *1. The benefit and burdens of this Agreement may  not be assigned or transferred by the Supplier without the Customer's written consent.*
+
+The Anti-Assignment Act, 41 CountryC 6305, prohibits the assignment of Government contracts without the Government's prior approval.  Procedures for securing such approval are set forth in FAR 42.1204.   
+
+### *2. COMPANY warrants that the SOFTWARE will, for a period of sixty (60) days from the date of your receipt, perform substantially in accordance with SOFTWARE written materials accompanying it. Except as just stated, The parties acknowledge that the Software is provided "AS IS," and may not be functional on every machine or in every environment.  Except as set forth herein,  COMPANY DISCLAIMS ALL WARRANTIES RELATING TO THE SOFTWARE, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES AGAINST INFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.*
+
+It contradicts 41 U.S.C.3307(e)(5)(B) and FAR 12.404(b).  FAR 12.404(b) states that "Express warranties. 41 U.S.C.3307(e)(5)(B) requires contracting officers to take advantage of commercial warranties. To the maximum extent practicable, solicitations for commercial items shall require offerors to offer the Government at least the same warranty terms, including offers of extended warranties, offered to the general public in customary commercial practice. Solicitations may specify minimum warranty terms, such as minimum duration, appropriate for the Government’s intended use of the item.
+ 
+(1) Any express warranty the Government intends to rely upon must meet the needs of the Government. The contracting officer should analyze any commercial warranty to determine if-
+ 
+- (i) The warranty is adequate to protect the needs of the Government, e.g., items covered by the warranty and length of warranty;
+ 
+- (ii) The terms allow the Government effective postaward administration of the warranty to include the identification of warranted items, procedures for the return of warranted items to the contractor for repair or replacement, and collection of product performance information; and
+ 
+- (iii) The warranty is cost-effective.
+ 
+(2) In some markets, it may be customary commercial practice for contractors to exclude or limit the implied warranties contained in 52.212-4 in the provisions of an express warranty. In such cases, the contracting officer shall ensure that the express warranty provides for the repair or replacement of defective items discovered within a reasonable period of time after acceptance.
+ 
+(3) Express warranties shall be included in the contract by addendum (see 12.302).
+
+
+
