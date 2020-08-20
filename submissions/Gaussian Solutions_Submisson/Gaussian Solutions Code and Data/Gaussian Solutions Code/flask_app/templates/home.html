@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href= {{ url_for('static', filename='css/main.css') }}>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  
+
+  <script src={{ url_for('static', filename='js/analyze.js') }}></script>   
+
+</head>
+<body>
+
+   
+    {% block body %}
+    
+    <div class="container">
+      <div class="row">
+        <div class="col">
+    
+          <h2>Upload the document you want analyzed</h2>
+          <hr>
+    
+          <form action="/analyze_doc" method="POST" enctype="multipart/form-data">
+    
+            <div class="form-group">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" name="document" id="document" oninput="input_filename();">
+                <label id="document_label" class="custom-file-label" for="image">Select file...</label>
+              </div>
+            </div>
+    
+            <button type="submit" class="btn btn-primary">Analyze</button>
+    
+          </form>
+    
+        </div>
+      </div>
+    </div>
+
+    <div class="error">
+            <h2> {{ error }}</h2>
+    </div>
+
+    <div class="ccontainer">    
+    {% if analysis_data %}
+    <div class="analysis"> Showing analysis for {{ doc_name }}</div>
+    <p> </p>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Clause</th>
+            <th scope="col">Recommended</th>
+            <th scope="col">Confidence</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for clause in analysis_data if analysis_data %}
+
+          <tr>
+            <td>{{ clause['Clause'] }}</td>
+            {% if clause['label'] == 1 %}
+                <td class="label-red">  {{ clause['recommend'] }}  </td>
+            {% else %}
+                <td class="label-green">  {{ clause['recommend'] }}  </td>
+            {% endif %}
+            <td>{{ clause['confidence'] }}</td>
+          </tr>
+          {% endfor %}
+
+        </tbody>
+      </table>    
+
+    {% endif %}
+    </div>
+    
+    {% endblock %}
+        
+    
+</body>
+</html>
