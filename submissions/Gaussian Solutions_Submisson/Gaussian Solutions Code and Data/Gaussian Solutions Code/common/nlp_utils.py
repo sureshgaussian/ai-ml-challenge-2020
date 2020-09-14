@@ -1,3 +1,7 @@
+#import ntlk.data
+#root = os.path.dirname(path.abspath(__file__))
+#download_dir = os.path.join(root, 'my_nltk_dir')
+
 from sklearn.feature_extraction.stop_words import ENGLISH_STOP_WORDS
 import itertools, string, operator, re, unicodedata, nltk
 from operator import itemgetter
